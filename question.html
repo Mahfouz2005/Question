@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Questions</title>
+        <link rel="stylesheet" href="quiz.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        </head>
+    <body class="bodyquestion">
+        <header>
+            <div class="header">
+                <div class="box image">
+                    <img src="img1.webp" alt="image de quiz" height="140px" width="120px">
+                </div>
+                <div class="box menu">
+                    <nav>
+                        <ul>
+                            <li> <a href="Quiz.html">Acceuil</a></li>
+                            <li><a href="question.html">Quiz</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="quiz">
+            <div class="question active" id="q1">
+                <h1>Question 1</h1>
+                <h2>1.Quelle est la capitale du Canada ?</h2>
+                <label>
+                <input type="radio" name="q1" value="0">a) Washington D.C. <br>
+                </label>
+                <label>
+                <input type="radio" name="q1" value="2">b) Ottawa<br>
+                </label>
+                <label >
+                <input type="radio" name="q1" value="0">c) Toronto<br>
+                </label>
+                <label >
+                <input type="radio" name="q1" value="0">d) Vancouver<br>
+                </label>
+                <button onclick="suivant(1)">Suivant</button>
+            </div>
+            <div class="question" id="q2">
+                <h1>Question 2</h1>
+                <h2>2.Combien de temps faut-il à la lumière du soleil pour atteindre la Terre ?</h2>
+                <label>
+                <input type="radio" name="q2" value="2">a) Environ 8 secondes<br>
+                </label>
+                <label>
+                <input type="radio" name="q2" value="0">b) Environ 8 minutes<br>
+                </label>
+                <label >
+                <input type="radio" name="q2" value="0">c) Environ 8 heures<br>
+                </label>
+                <label >
+                <input type="radio" name="q2" value="0">d) Environ 8 jours<br>
+                </label>
+                <button onclick="suivant(2)">Suivant</button>
+            </div>
+            <div class="question" id="q3">
+                <h1>Question 3</h1>
+                <h2>3.Qui a peint la Joconde ?</h2>
+                <label>
+                <input type="radio" name="q3" value="0">a) Vincent van Gogh<br>
+                </label>
+                <label>
+                <input type="radio" name="q3" value="0">b) Claude Monet<br>
+                </label>
+                <label >
+                <input type="radio" name="q3" value="2">c) Léonard de Vinci<br>
+                </label>
+                <label >
+                <input type="radio" name="q3" value="0">d) Pablo Picasso<br>
+                </label>
+                <button onclick="suivant(3)">Suivant</button>
+            </div>
+            <div class="question" id="q4">
+                <h1>Question 4</h1>
+                <h2>4.Quand la Révolution Française a-t-elle commencé ?</h2>
+                <label>
+                <input type="radio" name="q4" value="0">a) 1776<br>
+                </label>
+                <label>
+                <input type="radio" name="q4" value="2">b) 1789<br>
+                </label>
+                <label >
+                <input type="radio" name="q4" value="0">c) 1815<br>
+                </label>
+                <label >
+                <input type="radio" name="q4" value="0">d) 1914<br>
+                </label>
+                <button onclick="suivant(4)">Suivant</button>
+            </div>
+            <div class="question" id="q5">
+                <h1>Question 5</h1>
+                <h2>5.Quel est le symbole chimique de l'eau ?</h2>
+                <label>
+                <input type="radio" name="q5" value="0">a) O2<br>
+                </label>
+                <label>
+                <input type="radio" name="q5" value="0">b) CO2<br>
+                </label>
+                <label >
+                <input type="radio" name="q5" value="2">c) H2O<br>
+                </label>
+                <label >
+                <input type="radio" name="q5" value="0">d) N2<br>
+                </label>
+                <button onclick="suivant(5)">Suivant</button>
+            </div>
+            <div class="question" id="q6">
+                <h1>Question 6</h1>
+                <h2>6.Quel organe du corps humain pompe le sang ?</h2>
+                <label>
+                <input type="radio" name="q6" value="0">a) Les poumons<br>
+                </label>
+                <label>
+                <input type="radio" name="q6" value="0">b) Le cerveau<br>
+                </label>
+                <label >
+                <input type="radio" name="q6" value="0">c) Le foie<br>
+                </label>
+                <label >
+                <input type="radio" name="q6" value="2">d) Le cœur<br>
+                </label>
+                <button onclick="suivant(6)">Suivant</button>
+            </div>
+            <div class="question" id="q7">
+                <h1>Question 7</h1>
+                <h2>7.Dans quelle série télévisée trouve-t-on le personnage de Daenerys Targaryen ?</h2>
+                <label>
+                <input type="radio" name="q7" value="0">a) The Witcher<br>
+                </label>
+                <label>
+                <input type="radio" name="q7" value="0">b) The Crown<br>
+                </label>
+                <label >
+                <input type="radio" name="q7" value="2">c) Game of Thrones<br>
+                </label>
+                <label >
+                <input type="radio" name="q7" value="0">d) Stranger Things<br>
+                </label>
+                <button onclick="suivant(7)">Suivant</button>
+            </div>
+            <div class="question" id="q8">
+                <h1>Question 8</h1>
+                <h2>8.Qui est l'auteur du roman "Les Misérables" ?</h2>
+                <label>
+                <input type="radio" name="q8" value="2">a) Victor Hugo<br>
+                </label>
+                <label>
+                <input type="radio" name="q8" value="0">b) Albert Camus<br>
+                </label>
+                <label>
+                <input type="radio" name="q8" value="0">c) Antoine de Saint-Exupéry<br>
+                </label>
+                <label >
+                <input type="radio" name="q8" value="0">d) Jules Verne<br>
+                </label>
+                <button onclick="suivant(8)">Suivant</button>
+            </div>
+            <div class="question" id="q9">
+                <h1>Question 9</h1>
+                <h2>9.Quel pays a remporté le plus de Coupes du Monde de football masculines ?</h2>
+                <label>
+                <input type="radio" name="q9" value="0">a) Allemagne<br>
+                </label>
+                <label>
+                <input type="radio" name="q9" value="0">b) Italie<br>
+                </label>
+                <label >
+                <input type="radio" name="q9" value="2">c) Brésil<br>
+                </label>
+                <label >
+                <input type="radio" name="q9" value="0">d) Argentine<br>
+                </label>
+                <button onclick="suivant(9)">Suivant</button>
+            </div>
+            <div class="question" id="q10">
+                <h1>Question 10</h1>
+                <h2>10.Quel est le plus haut sommet d'Afrique ?</h2>
+                <label>
+                <input type="radio" name="q10" value="0">a) Le Mont Blanc<br>
+                </label>
+                <label>
+                <input type="radio" name="q10" value="0">b) Le Mont Everest<br>
+                </label>
+                <label >
+                <input type="radio" name="q10" value="2">c) Le Kilimandjaro<br>
+                </label>
+                <label >
+                <input type="radio" name="q10" value="0">d) Le Mont Fuji<br>
+                </label>
+                <button onclick="suivant(10)">Terminer le Quiz</button>
+            </div>
+            <div id="resultat">
+                <p id="score"></p>
+            </div>
+        </div>
+        <footer>
+            <span class="span">Tous droit réserver :&copy;2025 </span><br>
+            <a href="+2990164991803" title="whatsapp"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href="https//:facebook.com" title="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https//:telegram.com" title="telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https//:linkedin.com" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https//:instagram.com" title="instagram"><i class="fa-brands fa-square-instagram"></i></a>
+        </footer>
+        <script src="quiz.js"></script>
+    </body>
+</html>
